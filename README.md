@@ -1,10 +1,10 @@
-# Payout Mesh
+# Payout Orchestrator - Resilient Payout Processing Platform
 
 A resilient, event-driven payout processing platform built on AWS infrastructure.
 
 ## Overview
 
-Payout Mesh takes payout requests and moves them through validation, processing and settlement as a series of events. Each stage is decoupled from the others, so a failure in one stage does not block the rest. Failed work can be retried safely without paying anyone twice.
+Payout Orchestrator takes payout requests and moves them through validation, processing and settlement as a series of events. Each stage is decoupled from the others, so a failure in one stage does not block the rest. Failed work can be retried safely without paying anyone twice.
 
 ## Goals
 
